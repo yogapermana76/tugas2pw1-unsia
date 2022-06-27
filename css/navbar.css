@@ -1,0 +1,30 @@
+.navbar-header .logo {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.navbar-header.navbar-light .navbar-nav .nav-link {
+  color: #092a33;
+  transition: 0.3s;
+}
+
+.navbar-header.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.navbar-header .btn-get-started {
+  border-radius: 20px;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.navbar-header .btn-get-started-blue {
+  background-color: #0ec8f8;
+  transition: 0.3s;
+}
+
+.navbar-header .btn-get-started-blue:hover {
+  background-color: #3ad8ff;
+  transition: 0.3s;
+}
