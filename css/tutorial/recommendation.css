@@ -1,0 +1,61 @@
+.recommendation {
+  padding-top: 40px;
+}
+
+.recommendation .container {
+  max-width: 760px;
+}
+
+.recommendation .section-title {
+  margin-bottom: 32px;
+}
+
+.recommendation h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0ec8f8;
+}
+
+.recommendation h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.recommendation p {
+  font-size: 18px;
+  color: #64748B;
+}
+
+.recommendation .card {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  cursor: pointer;
+}
+
+.recommendation .card .image {
+  width: 64px;
+  height: 64px;
+}
+
+.recommendation .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.recommendation .card h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.recommendation .card p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #334155;
+}

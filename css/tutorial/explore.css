@@ -1,0 +1,62 @@
+.explore {
+  padding: 40px 0;
+}
+
+.explore .container {
+  max-width: 760px;
+}
+
+.explore .section-title {
+  margin-bottom: 32px;
+}
+
+.explore h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0ec8f8;
+}
+
+.explore h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.explore p {
+  font-size: 18px;
+  color: #64748B;
+}
+
+.explore .card {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  cursor: pointer;
+}
+
+.explore .card .image {
+  width: 160px;
+  height: 100px;
+}
+
+.explore .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.explore .card h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.explore .card p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #334155;
+}
