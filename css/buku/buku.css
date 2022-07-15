@@ -1,0 +1,71 @@
+.buku {
+  padding: 40px 0;
+}
+
+.buku .section-title {
+  margin-bottom: 32px;
+}
+
+.buku h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0ec8f8;
+}
+
+.buku h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buku p {
+  font-size: 18px;
+  color: #64748B;
+}
+
+.buku .card {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  cursor: pointer;
+}
+
+.buku .card .image {
+  width: 160px;
+  height: 100px;
+}
+
+.buku .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.buku .card .category {
+  font-size: 12px;
+  font-weight: 700;
+  color: #0D9488;
+  margin-bottom: 12px;
+}
+
+.buku .card h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.buku .card .author {
+  font-size: 14px;
+  color: #64748B;
+  margin-bottom: 12px;
+}
+
+.buku .card p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #334155;
+}

@@ -12,3 +12,10 @@
 @import url('./home/category.css');
 @import url('./home/update.css');
 @import url('./home/news-letter.css');
+
+/* tutorial */
+@import url('./tutorial/recommendation.css');
+@import url('./tutorial/explore.css');
+
+/* buku */
+@import url('./buku/buku.css');
